@@ -26,16 +26,16 @@ Go to `https://www.json-generator.com/`
 ```js
 // paste this on left panel
 [
-  "{{repeat(30)}}",
+  '{{repeat(30)}}',
   {
-    _id: "{{objectId()}}",
-    age: "{{integer(20, 40)}}",
-    name: "{{firstName()}} {{surname()}}",
-    gender: "{{gender()}}",
-    company: "{{company().toUpperCase()}}",
-    email: "{{email()}}",
-    phone: "+1 {{phone()}}",
-    tags: ["{{repeat(2)}}", '{{lorem(1, "words")}}'],
+    _id: '{{objectId()}}',
+    age: '{{integer(20, 40)}}',
+    name: '{{firstName()}} {{surname()}}',
+    gender: '{{gender()}}',
+    company: '{{company().toUpperCase()}}',
+    email: '{{email()}}',
+    phone: '+1 {{phone()}}',
+    tags: ['{{repeat(2)}}', '{{lorem(1, "words")}}'],
   },
 ];
 ```
